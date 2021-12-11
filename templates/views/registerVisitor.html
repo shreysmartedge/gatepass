@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register Visitor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- css files path start  -->
+        <link href="html_css/bootstrap.min.css" rel="stylesheet">
+        <link href="html_css/registerpage.css" rel="stylesheet">
+    <!-- css files path end   -->
+
+
+    <!-- jqurey files path start  -->
+        <script src="jquery/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    <!-- jqurey files path end   -->
+
+</head>
+
+<body style="background-color: #3AD553;">
+
+    <!-- Register section -->
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-lg-5">
+                <img class="image-class" src="assets/img/login-page.png">
+                <!-- Footer -->
+                <footer class="page-footer font-small pt-4">
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3 text-white">© 2021 Copyright. &reg; Atithi Portal , All rights
+                        reserved.
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+            </div>
+
+            <div class="col-lg-7">
+                <div class="card mt-3 mb-3" style="background-color: white;border-radius: 35px;padding-left: 2rem;padding-right: 2rem;">
+                    <div class="card-body">
+                        <h2 style="text-align: center;">Register the visitor.</h2>
+                        <form style="margin-top: 30px;">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" required>
+                                <label for="usr">Visitor Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="mobile" required>
+                                <label for="usr">Mobile</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="address" required>
+                                <label for="usr">Address</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="perposeOfVisit" required>
+                                <label for="usr">Purpose of visit</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="personToVisit" required>
+                                <label for="usr">Person to visit</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="time" class="form-control" id="checkInTime" required>
+                                <label for="usr">Check-in Time</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="time" class="form-control" id="checkoutTime" required>
+                                <label for="usr">Check-out Time</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="date" class="form-control" id="date" required>
+                                <label for="usr"></label>
+                            </div>
+                            <div class="col-md-12 text-center" style="padding-top: 2%;">
+                                <button type="submit" class="btn btn-success">REGISTER</button>
+                                <button style="margin-left:100px !important" type="reset"
+                                    class="btn btn-danger">RESET</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Register section -->
+</body>
+
+</html>
